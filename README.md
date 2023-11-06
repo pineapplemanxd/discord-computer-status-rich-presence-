@@ -31,6 +31,18 @@ Once you've configured the script, you can run it to display your system informa
    ```shell
    python computer_Stats.py
    
-4.The script will start and display real-time information about your system's CPU and RAM usage in your Discord profile's rich presence.
+ 4.The script will start and display real-time information about your system's CPU and RAM usage in your Discord profile's 
+ rich presence.
+## Customization
+
+You can customize the script to display additional information or modify the update frequency. The following variables in the script can be adjusted:
+- 'details': This is the text that appears below your Discord username. You can modify this to display any system information you like.
+- 'state': This is the second line of text in your rich presence. You can customize it to display different system metrics or information.
+- 'time.sleep(15)': This line controls the update frequency of the rich presence. By default, it updates every 15 seconds. You can change this value to update more or less frequently, but be mindful of rate limits imposed by Discord.
+
+## Stopping the Script
+To stop the script and remove the rich presence from your Discord profile, simply terminate the script by pressing Ctrl+C in the terminal where it's running.
+
+That's it! You've successfully set up and used this Python script to display system information in a Discord rich presence. Customize it to suit your preferences and enjoy showing off your system stats to your friends on Discord.
 
 
